@@ -1,0 +1,217 @@
+header{
+    position: absolute;
+    top:5%;
+    z-index: 20;
+    width: 100%;
+}
+main{
+    background-color: #070916 !important;
+    height: 50em !important;
+}
+.navbar{
+    position: absolute;
+    top:-35px;
+    display: flex;
+    flex-direction: row;
+     /* Borde semi-transparente */
+    backdrop-filter: blur(-10px); /* Efecto de desenfoque para el estilo de vidrio */
+    -webkit-backdrop-filter: blur(0px);
+    width: 100%;
+    background-color: #070916;
+    z-index: 1;
+    justify-content: center;
+    gap:12em;
+    
+    
+
+
+}
+.opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    right: 20px;
+    position:absolute;
+    gap:2em;
+    top:1em;
+    height: 100%;
+    color: aliceblue;
+    
+}
+.nombre{
+    position: relative;
+    left:4em; 
+    text-wrap: wrap;
+    color: #fff; /* Color del texto */
+    text-shadow: 0 0 8px #fff, /* Brillo exterior */
+                 0 0 12px #ff0, /* Halo de color */
+                 0 0 16px #ff0; /* Extensión del halo */
+    top:1em;
+    z-index: 200;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+hr{
+    height:1px;
+    background-color: darkgrey;
+    width: 80%;
+    margin-top: 2px;
+}
+.TarjetaActividad{
+    background: rgb(232, 230, 226); /* Fondo semi-transparente */
+   
+    width:17.2em;
+    border-radius: 5px;
+    margin-top: 8px;
+    gap: 8px;
+    padding: 1em;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #242424;
+ 
+
+}
+.TarjetaActividad:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #fff, /* Brillo exterior */
+                 0 0 12px rgb(255, 234, 0), /* Halo de color */
+                 0 0 14px rgb(255, 242, 0); /* Extensión del halo */
+}
+.ImagenTarjeta{
+    width: 113%;
+    margin-left: -15.5px; 
+    margin-top: -18px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    
+}
+.tarjetas-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:150px;
+    justify-content: space-around;
+    gap:2em;
+    flex-wrap: wrap;
+}
+body{
+    
+    background-color: #070916 !important; /* fallback for old browsers */
+    color: aliceblue;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#background{
+    z-index: -40;
+    height: 100em;
+    width: 100%;
+    top:-380px;
+    position:absolute;
+   
+    
+    
+
+}
+#navegacion{
+    position: absolute;
+    z-index: -10;
+    margin-top:-120px;
+    width:30%;
+    
+   
+}
+#navegacion2{
+    position: absolute;
+    z-index: 50;
+    margin-top:-120px;
+    width:200%;
+ 
+   
+}
+.opcion1{
+    color: aliceblue;
+    background-color: #070916;
+   
+    width:37%;
+    margin-left: 0em;
+    padding-left: 23em;
+    padding-right: -10em;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff; /* Color del texto */
+    text-shadow: 0 0 8px #fff, /* Brillo exterior */
+                 0 0 12px rgb(255, 234, 0), /* Halo de color */
+                 0 0 14px rgb(255, 242, 0); /* Extensión del halo */
+
+}
+.opcion2{
+    color: aliceblue;
+    left:100em;
+    background-color: #070916;
+    width:37%;
+
+    padding-left: 3em;
+    top:1em;
+    border-radius: 20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    color: #fff; /* Color del texto */
+    text-shadow: 0 0 8px #fff, /* Brillo exterior */
+                 0 0 12px #ff0, /* Halo de color */
+                 0 0 16px #ff0; /* Extensión del halo */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+.hr{
+    margin-top: 0.5%;
+    width:30% !important;
+    height: 106.5% !important;
+    color: rgb(170, 5, 5) !important;
+    background-color: rgb(170, 5, 5) !important;
+    border-color: rgb(170, 5, 5) !important;
+}
+.letrero{
+    color: #fff;
+    font-size: 155% !important;
+    margin-top: 7%;
+    margin-left: 2.7%;
+   
+}
+.let{
+    margin-top: 20%;
+    margin-bottom: -8%;
+}
+.formulario{
+    font-display: flex !important;
+    flex-direction: column !important;
+    gap:5% !important;
+    margin-left: 10%;
+}
+.formulario button{
+    color: #fff !important; /* Color del texto */
+    text-shadow: 0 0 8px #fff, /* Brillo exterior */
+                 0 0 12px #ff0, /* Halo de color */
+                 0 0 16px #ff0 !important; 
+   
+}
+h1{
+    color: #fff !important; /* Color del texto */
+    text-shadow: 0 0 8px #fff, /* Brillo exterior */
+                 0 0 12px #ff0, /* Halo de color */
+                 0 0 16px #ff0 !important; 
+
+}
+
+
